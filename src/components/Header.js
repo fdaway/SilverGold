@@ -6,7 +6,7 @@ class Header extends React.Component {
     return (
   <div>
   <ul className='main-nav'>
-      <li><Link to='/'>Золото</Link></li>
+      <li><Link to='/'>Золото Cеребро</Link></li>
       <li><Link to='/portfolio'>Портфель</Link></li>
       <li><Link to='/contacts'>Конакты</Link></li>
   </ul>
