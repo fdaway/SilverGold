@@ -1,0 +1,225 @@
+body, h1, h2
+ margin: 0
+ padding: 0
+ list-style: none
+ text-align: center
+ font-family: 'Lato', sans-serif
+body
+  margin-bottom: 4%
+h1
+  font-size: 2.1rem
+  padding: 2rem
+  margin-top: 2rem
+
+h2
+  margin: 20px
+  font-size: 1.9rem
+h3
+  font-size: 1.9rem
+ul
+  list-style: none
+  margin: 0
+  padding: 0
+li
+    padding: 5px
+    margin: 0
+
+.main-nav
+    display: flex
+    list-style: none
+    margin: 0
+    padding: 0
+    background: #000
+    color: #fff
+    position: fixed
+    top: 0
+    width: 100%
+    font-size: 0.9rem
+
+    li:first-child
+      margin-left: 7px
+      margin-right: auto
+
+    li:last-child
+      margin-right: 7px
+
+    a
+      color: white
+      text-decoration: none
+      padding-right: 5px
+
+    a:hover
+      color: #e4e4e4
+      transition: 0.2s
+form
+  margin: 0 auto
+  text-align: center
+
+.blocks-cont
+  max-width: 942px
+  display: flex
+  flex-wrap: wrap
+  margin: 0 auto
+  margin-bottom: 130px
+  text-align: left
+  justify-content: space-evenly
+
+  h4
+    margin: 0px
+    padding: 15px
+  p
+    margin: 0px
+    margin-top: -12px
+    font-size: 12px
+    padding: 0px 15px 0px 15px
+
+.block-wrap
+  border-radius: 2px
+  padding: 4px
+  border: 2px solid #e7e7e7
+  margin: 10px
+
+.block1
+  margin: 12px
+  width: 400px
+  height: 230px
+  color: #fff
+  text-align: left
+  background-position: 50%
+  background-size: cover
+  background-image: url('JPMorgan-Деньги-это-золото.jpg')
+
+
+.block2
+  margin: 12px
+  width: 400px
+  height: 230px
+  color: #fff
+  text-align: left
+  background-position: 50% 98%
+  background-size: cover
+  background-image: url('JPMorgan-серебро-.png')
+
+.block3
+  margin: 12px
+  width: 400px
+  height: 230px
+  color: #fff
+  text-align: left
+  background-position: 50%
+  background-size: cover
+  background-image: url('Роберт-Кийосаки-о-золоте.jpg')
+
+.block4
+  margin: 12px
+  width: 400px
+  height: 230px
+  color: #fff
+  text-align: left
+  background-position: 50%
+  background-size: cover
+  background-image: url('миллиарды-1-12-золото.gif')
+
+.logo-image
+  margin: 0 auto
+  width: 300px
+  height: 156px
+  margin-top: 40px
+  background-image: url('американский-орел-монеты-золото-серебро-300x166.jpg')
+
+.container
+  border: 2px dashed #333
+  max-width: 942px
+  margin: 0 auto
+  box-shadow: 0px 7px 20px 0px rgba(68,68,68,0.3)
+  padding: 19px
+  padding-bottom: 4%
+
+.reserves
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-evenly
+  margin-bottom: 7rem
+  img
+    box-shadow: 0px 7px 20px 0px rgba(68,68,68,0.3)
+  p
+    font-size: 1.4rem
+    font-weight: 600
+.priceColumn:hover
+    box-shadow: 0 20px 30px rgba(7, 34, 48, 0.18)
+    transition: 0.2s
+.priceColumn
+    height: fit-content
+    width: 270px
+    border: 1px solid grey
+    margin: 18px
+    border-radius: 5px
+    border: 1px solid #d5dbdd
+    box-shadow: 0 20px 30px rgba(7,34,48,.11)
+    h4
+      background: #323232
+      color: #ffffff
+      font-size: 1.1rem
+      margin: 0
+      padding: 25px 0 25px 0
+    ul
+      margin-bottom: 1rem
+    li
+      font-size: 0.95rem
+      border-top: 3px solid #ebebeb
+      padding: 11px 8px 11px 8px
+    p
+      margin: 0
+.priceBlock
+  display: flex
+  justify-content: center
+  padding-top: 10px
+  padding-bottom: 5px
+.priceC
+  margin: 0
+  line-height: 2.5
+.priceP
+  margin: 20px 0 14px 0 !important
+  font-size: 2.5rem
+  font-weight: 600
+  color: #333
+.buyButton
+  width: 80%
+  margin: 1rem 0 2.3rem 0
+  padding: 9px 22px 9px 22px
+  border: 70px
+  background: orange
+  color: #ffffff
+  font-weight: 600
+  font-size: 0.9rem
+  border-radius: 2px
+  &:hover
+    transition: 0.2s
+    background: #ffb01f
+
+.foot-nav
+  display: flex
+  list-style: none
+  margin: 0
+  padding: 0
+  background: #000
+  color: #fff
+  position: fixed
+  bottom: 0
+  width: 100%
+  font-size: 0.9rem
+  a
+    color: white
+    text-decoration: none
+    padding-right: 5px
+
+  a:hover
+    color: #e4e4e4
+    transition: 0.2s
+
+@media screen and (max-width: 904px)
+  .blocks-cont
+    justify-content: center
+
+  .reserves
+    justify-content: center
