@@ -32,10 +32,7 @@ class Services extends React.Component {
       flexWrap: 'wrap',
       justifyContent: 'center'
     }
-  var coinStyle = {
-      display: 'block',
-      filter: 'opacity(42%)'
-  }
+
     return (
       <div style={style}>
         <div className="priceColumn">
@@ -52,7 +49,7 @@ class Services extends React.Component {
           </ul>
           <input type='checkbox' onChange={this.handleChange} /> Добавить со скидкой 40%
           <div style={this.getStyle()} className="coinImage">
-          <img width="161px" src="ag.png" />
+          <img width="161px" src="ag.png" alt="Серебрянный Американскй Орел монета 1 унция" />
           </div>
           <p>{this.state.coinName}</p>
           <p style={{marginBottom: '1rem'}}>{this.state.coinDetail}</p>
@@ -60,7 +57,7 @@ class Services extends React.Component {
         </div>
 
         <div className="priceColumn">
-        <h4>Портфель биржевой</h4>
+        <h4>Биржевой портфель</h4>
         <div className='priceBlock'>
         <p className="priceP">99</p>
         <p className="priceC">USD</p>

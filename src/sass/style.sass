@@ -5,7 +5,7 @@ body, h1, h2
  text-align: center
  font-family: 'Lato', sans-serif
 body
-  margin-bottom: 4%
+
 h1
   font-size: 2.1rem
   padding: 2rem
@@ -26,6 +26,7 @@ li
 
 .main-nav
     display: flex
+    flex-wrap: wrap
     list-style: none
     margin: 0
     padding: 0
@@ -35,7 +36,7 @@ li
     top: 0
     width: 100%
     font-size: 0.9rem
-
+    z-index: 2
     li:first-child
       margin-left: 7px
       margin-right: auto
@@ -46,7 +47,7 @@ li
     a
       color: white
       text-decoration: none
-      padding-right: 5px
+      padding: 3px
 
     a:hover
       color: #e4e4e4
@@ -54,7 +55,65 @@ li
 form
   margin: 0 auto
   text-align: center
+.coinCard
+  width: 240px
+  height: fit-content
+  border-radius: 5px
+  padding: 5px 9px 12px 9px
+  margin: 0.77rem
+  &:hover
+  box-shadow: 0px 7px 20px 0px rgba(68,68,68,0.3)
+#buyQuantity
+  width: 35px
+  text-align: center
+  border-radius: 2px
+  padding: 7px 18px 7px 18px
+  font-weight: 600
+  font-size: 0.9rem
+  border-radius: 2px
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+  opacity: 1
+input[type=number]:focus
+    outline: none
+.submitB
+  width: 40%
+  margin: 0 0 1.7rem 0
+  padding: 9px 22px 9px 22px
+  border: 0px
+  background: #000
+  color: #ffffff
+  font-weight: 600
+  font-size: 0.9rem
+  border-radius: 2px
+  &:hover
+    transition: 0.2s
+    background: #333
+.buySection
+  margin-top: 0.8rem
+  button
+    width: 40%
+    margin: 0 0 1.7rem 0
+    padding: 9px 22px 9px 22px
+    border: 0px
+    border-top: 1px solid #ff9a00
+    background: #ff9a00
+    color: #ffffff
+    font-weight: 600
+    font-size: 0.9rem
+    border-radius: 2px
+    &:hover
+      transition: 0.2s
+      background: #ffb01f
+    p
+      margin: 0
+      padding: 0
 
+
+.store
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
 .blocks-cont
   max-width: 942px
   display: flex
@@ -87,8 +146,7 @@ form
   text-align: left
   background-position: 50%
   background-size: cover
-  background-image: url('JPMorgan-Деньги-это-золото.jpg')
-
+  background-image: url('/reserves/JPMorgan-Деньги-это-золото.jpg')
 
 .block2
   margin: 12px
@@ -98,7 +156,7 @@ form
   text-align: left
   background-position: 50% 98%
   background-size: cover
-  background-image: url('JPMorgan-серебро-.png')
+  background-image: url('/reserves/JPMorgan-серебро-.png')
 
 .block3
   margin: 12px
@@ -108,7 +166,7 @@ form
   text-align: left
   background-position: 50%
   background-size: cover
-  background-image: url('Роберт-Кийосаки-о-золоте.jpg')
+  background-image: url('/reserves/Роберт-Кийосаки-о-золоте.jpg')
 
 .block4
   margin: 12px
@@ -118,14 +176,13 @@ form
   text-align: left
   background-position: 50%
   background-size: cover
-  background-image: url('миллиарды-1-12-золото.gif')
+  background-image: url('/reserves/миллиарды-1-12-золото.gif')
 
 .logo-image
   margin: 0 auto
   width: 300px
   height: 156px
-  margin-top: 40px
-  background-image: url('американский-орел-монеты-золото-серебро-300x166.jpg')
+  background-image: url('/reserves/американский-орел-монеты-золото-серебро-300x166.jpg')
 
 .container
   border: 2px dashed #333
@@ -170,6 +227,20 @@ form
       padding: 11px 8px 11px 8px
     p
       margin: 0
+.formCont
+  max-width: 380px
+  margin: 0 auto
+  input[type=text],input[type=email], select, textarea
+      width: 100%
+      padding: 12px
+      border: 1px solid #ccc
+      border-radius: 3px
+      box-sizing: border-box
+      margin-top: 6px
+      margin-bottom: 16px
+      resize: vertical
+  label
+    text-align: left
 .priceBlock
   display: flex
   justify-content: center
@@ -223,3 +294,7 @@ form
 
   .reserves
     justify-content: center
+  .main-nav
+    justify-content: center
+    li:first-child
+      margin-right: 0

@@ -1,27 +1,39 @@
 import React from 'react';
-import Articleb from '../components/articleb';
-import Services from '../components/services';
 import ImageZoom from 'react-medium-image-zoom';
 
+
 class Homepage extends React.Component {
+
 render () {
-  var styles= {
-    marginBottom: '70px',
-    marginTop: '0'
-}
-  var thisHeader = {
-height: '96vh',
-display: 'flex',
-alignItems: 'center',
-justifyContent: 'center',
-flexDirection: 'column'
+  var styles = {
+    txt1: {
+    fontSize: '4rem',
+    marginBottom: '0px',
+    marginTop: '0',
+    padding: '10',
+    paddingTop: 0
+  },
+  txt2: {
+    marginBottom: '20px',
+    marginTop: '-30px',
+    padding: '10',
+    fontSize: '1.40rem'
+  },
+    heading : {
+    height: '94vh',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    flexDirection: 'column'
+    }
   }
   return (
       <div >
 
-        <div style={thisHeader}>
+        <div style={styles.heading}>
+        <h1 style={styles.txt1}>Golden Gate</h1>
+        <h2 style={styles.txt2}>Инвестиции в золото и серебро</h2>
         <div className="logo-image"></div>
-        <h1 style={styles}>Инвестиции в золото и серебро</h1>
         </div>
 
         <h3>Золотые резервы стран</h3>
@@ -127,15 +139,7 @@ flexDirection: 'column'
 
         </div>
 
-        <h3>4 истории</h3>
-        <div>
-        <Articleb />
-        </div>
 
-        <h3>Услуги</h3>
-        <div>
-        <Services />
-        </div>
 
       </div>
   );

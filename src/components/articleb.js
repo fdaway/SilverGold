@@ -16,19 +16,19 @@ class Articleb extends React.Component {
         </div>
 
         <div className="block-wrap">
-        <h4>Деньги - это золото, и ничто другое</h4>
+        <h4>Накопление серебра JPMorgan</h4>
         <p className="published"> {date} </p>
         <div className='block2'></div>
         </div>
 
         <div className="block-wrap">
-        <h4>Деньги - это золото, и ничто другое</h4>
+        <h4>Золото - это магнит, Роберт Кийосаки</h4>
         <p className="published"> {date} </p>
         <div className='block3'> </div>
         </div>
 
         <div className="block-wrap">
-        <h4>Деньги - это золото, и ничто другое</h4>
+        <h4>Миллиарды</h4>
         <p className="published"> {date} </p>
         <div className='block4'></div>
         </div>
