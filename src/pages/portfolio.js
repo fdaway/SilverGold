@@ -2,7 +2,11 @@ import React from 'react';
 
 class Portfolio extends React.Component {
   render () {
-    return  <h1>Портфель</h1>;
+    return (
+      <div> <h1>Портфель</h1>
+     
+    </div>
+    )
   }
 }
 

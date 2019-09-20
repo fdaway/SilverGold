@@ -1,5 +1,6 @@
 import React from 'react';
 import CoinCard from '../components/coinCard';
+
 class Store extends React.Component {
   render () {
 
@@ -31,7 +32,7 @@ class Store extends React.Component {
       frontImageAlt = {'Американский Золотой Орел 1oz перед'}
       backImageAlt = {'Американский Золотой Орел 1oz зад'}
       />
-     
+
       </div>
       </div>
     )
