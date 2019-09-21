@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
-
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Store from './pages/coins-store';
@@ -27,7 +26,6 @@ render () {
       <Route exact path='/gold-investing' component={GoldInvesting} />
       <Route exact path='/gold-news-articles-interviews' component={GoldStories} />
       <Route exact path='/contacts' component={Contacts} />
-   
       </div>
 
       <Footer />

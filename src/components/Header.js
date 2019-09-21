@@ -10,7 +10,8 @@ class Header extends React.Component {
       <li><Link to='/coins-store'>Магазин монет</Link></li>
       <li><Link to='/gold-investing'>Биржевые инвестиции</Link></li>
       <li><Link to='/portfolio'>Портфель</Link></li>
-      <li><Link to='/gold-news-articles-interviews'>Новости/Cтатьи/Интервью</Link></li>
+        <li><Link to='/gold-investing'>Интервью Kitco</Link></li>
+      <li><Link to='/gold-news-articles-interviews'>Новости/Cтатьи</Link></li>
       <li><Link to='/contacts'>Контакты</Link></li>
   </ul>
   </div>

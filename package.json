@@ -1,7 +1,7 @@
 {
   "name": "gold-hub",
   "version": "0.1.0",
-  "homepage": "http://42trades.com/test",
+  "homepage": "http://alexandrmelnik.com",
   "private": true,
   "dependencies": {
     "react": "^16.9.0",

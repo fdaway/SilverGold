@@ -23,9 +23,12 @@ class CoinCard extends React.Component {
   }
   render () {
 
+ const styles = {
+   textAlign: 'center'
+ };
 
     return (
-      <div className="coinCard">
+      <div className="coinCard" style={styles}>
         <h4>{this.props.coinName}</h4>
         <div>
         <ReactCardFlip  isFlipped={this.state.isFlipped}

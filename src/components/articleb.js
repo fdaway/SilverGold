@@ -3,7 +3,7 @@ import React from 'react';
 class Articleb extends React.Component {
 
   render () {
-    var date = "8 cентября, 2019";
+    var date = "8 сентября, 2019";
 
     return  (
       <div className="blocks-cont">

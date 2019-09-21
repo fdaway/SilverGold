@@ -6,9 +6,7 @@ class Footer extends React.Component {
     return (
       <div>
       <ul className='foot-nav'>
-          <li><Link to='/'>Gold Hub</Link></li>
-          <li><Link to='/portfolio'>Портфель</Link></li>
-          <li><Link to='/contacts'>Контакты</Link></li>
+          <li><Link to='/'>Golden Gate, 2019</Link></li>
       </ul>
       </div>
     );

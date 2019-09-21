@@ -15,7 +15,7 @@ class Services extends React.Component {
   handleChange(event) {
     this.setState({
      isChecked: !this.state.isChecked,
-     packagePrice: this.state.isChecked ? 19 : 33,
+     packagePrice: this.state.isChecked ? 19 : 36,
      coinName: this.state.isChecked ? '' : 'Американский Орел ',
      coinDetail: this.state.isChecked ? '' : 'Серебро 99.9% 1oz (31.1г)'
     })
@@ -30,7 +30,9 @@ class Services extends React.Component {
   var style = {
       display: 'flex',
       flexWrap: 'wrap',
-      justifyContent: 'center'
+      justifyContent: 'center',
+      textAlign: 'center',
+      marginTop: '12px'
     }
 
     return (
@@ -47,9 +49,9 @@ class Services extends React.Component {
           <li>Контрагенты, брокеры</li>
           <li>Защита инвесторов</li>
           </ul>
-          <input type='checkbox' onChange={this.handleChange} /> Добавить со скидкой 40%
+          <input type='checkbox' onChange={this.handleChange} /> Добавить со скидкой 35%
           <div style={this.getStyle()} className="coinImage">
-          <img width="161px" src="ag.png" alt="Серебрянный Американскй Орел монета 1 унция" />
+          <img width="150px" src="ag.png" alt="Серебрянный Американскй Орел монета 1 унция" />
           </div>
           <p>{this.state.coinName}</p>
           <p style={{marginBottom: '1rem'}}>{this.state.coinDetail}</p>
@@ -74,7 +76,7 @@ class Services extends React.Component {
         <div className="priceColumn">
         <h4>Управление капиталом</h4>
         <div className='priceBlock'>
-        <p className="priceP">2/12</p>
+        <p className="priceP">1/12</p>
         <p className="priceC">%</p>
         </div>
         <ul>

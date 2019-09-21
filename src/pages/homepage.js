@@ -25,7 +25,7 @@ render () {
     alignItems: 'center',
     justifyContent: 'center',
     flexDirection: 'column'
-    }
+  }
   }
   return (
       <div >
@@ -33,66 +33,84 @@ render () {
         <div style={styles.heading}>
         <h1 style={styles.txt1}>Golden Gate</h1>
         <h2 style={styles.txt2}>Инвестиции в золото и серебро</h2>
-        <div className="logo-image"></div>
+        <div className="logo-image">
+        <img src="/reserves/american-eagle-coins-gold-and-silver.png" alt="Американский Орел Золотая и Серебрянная монеты"/>
+        </div>
         </div>
 
-        <h3>Золотые резервы стран</h3>
+        <h3>Золотой резерв стран</h3>
         <div className="reserves">
 
         <div>
-        <p>Китай</p>
+        <p className="country">Китай</p>
         <ImageZoom
         image={{
-        src: 'reserves/Китай-золотые-резервы.png',
-        alt: 'Golden Gate Bridge',
+        src: 'reserves/China-gold-reserves-2019.png',
+        alt: 'Золотые резервы Китая в 2019',
         className: 'img',
         style: { width: '430px' }
         }}
         zoomImage={{
         src: 'bridge-big.jpg',
-        alt: 'Golden Gate Bridge'
+        alt: 'Золотые резервы Китая в 2019'
         }}
         />
         </div>
 
         <div>
-        <p>Россия</p>
+        <p className="country">Россия</p>
         <ImageZoom
         image={{
-        src: 'reserves/золотые-резервы-России.png',
-        alt: 'Golden Gate Bridge',
+        src: 'reserves/Russia-gold-reserves-2019.png',
+        alt: 'Золотые резервы России в 2019',
         className: 'img',
         style: { width: '430px' }
         }}
         zoomImage={{
         src: 'bridge-big.jpg',
-        alt: 'Golden Gate Bridge'
+        alt: 'Золотые резервы Китая в 2019'
         }}
         />
         </div>
 
         <div>
-        <p>Индия</p>
+        <p className="country">Индия</p>
         <ImageZoom
         image={{
-        src: 'reserves/золотые-резервы-Индии.png',
-        alt: 'Golden Gate Bridge',
+        src: 'reserves/India-gold-reserves-2019.png',
+        alt: 'Золотые резервы Индии в 2019',
         className: 'img',
         style: { width: '430px' }
         }}
         zoomImage={{
         src: 'bridge-big.jpg',
-        alt: 'Golden Gate Bridge'
+        alt: 'Золотые резервы Китая в 2019'
         }}
         />
         </div>
 
   <div>
-  <p>Венгрия</p>
+  <p className="country">Венгрия</p>
   <ImageZoom
   image={{
-  src: 'reserves/золотые-резервы-Венгрия.png',
-  alt: 'Golden Gate Bridge',
+  src: 'reserves/Hungary-gold-reserves-2019.png',
+  alt: 'Золотые резервы Венгрии в 2019',
+  className: 'img',
+  style: { width: '430px' }
+  }}
+  zoomImage={{
+  src: 'bridge-big.jpg',
+  alt: 'Золотые резервы Венгрии в 2019'
+  }}
+  />
+  </div>
+
+  <div>
+  <p className="country">Казахстан</p>
+  <ImageZoom
+  image={{
+  src: 'reserves/Kazakhstan-gold-reserves-2019.png',
+  alt: 'Золотые резервы Казахстана в 2019',
   className: 'img',
   style: { width: '430px' }
   }}
@@ -104,33 +122,17 @@ render () {
   </div>
 
   <div>
-  <p>Казахстан</p>
+  <p className="country">Турция</p>
   <ImageZoom
   image={{
-  src: 'reserves/золотые-резервы-Казахстан.png',
-  alt: 'Golden Gate Bridge',
+  src: 'reserves/Turkey-gold-reserves-2019.png',
+  alt: 'Золотые резервы Турции в 2019',
   className: 'img',
   style: { width: '430px' }
   }}
   zoomImage={{
-  src: 'bridge-big.jpg',
-  alt: 'Golden Gate Bridge'
-  }}
-  />
-  </div>
-
-  <div>
-  <p>Турция</p>
-  <ImageZoom
-  image={{
-  src: 'reserves/золотые-резервы-Турция.png',
-  alt: 'Golden Gate Bridge',
-  className: 'img',
-  style: { width: '430px' }
-  }}
-  zoomImage={{
-  src: 'reserves/золотые-резервы-Турция.png',
-  alt: 'Golden Gate Bridge'
+  src: 'reserves/Turkey-gold-reserves-2019.png',
+  alt: 'Золотые резервы Турции в 2019'
   }}
   />
   </div>
