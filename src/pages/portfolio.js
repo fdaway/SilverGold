@@ -6,7 +6,15 @@ class Portfolio extends React.Component {
     return (
       <div> <h1>Портфель</h1>
       <div className="centered">
-      <img src="/gold-investing-portfolio.png" />
+      <div className="imAuto">
+      <img src="/gold-investing-portfolio.png" alt="Инвестиционный портфель Золото и Серебро" />
+      </div>
+      <div className="garanties">
+      <span className="str">Требования</span>
+      <p>Доступ к основным мировым фондовым биржам. Рекомендуемый брокер предоставляет услуги более 30 лет, является публичной компанией с собственным капиталом более 6 млрд USD и многократно выбирался лучшим брокером США. Минимальный депозит составляет <span className="str">10,000 USD</span>.</p>
+      <span className="str">Гарантии</span>
+      <p>Безопасность сделок обеспечивается <span className="str">SEC</span>(Комиссия США по обмену ценными бумагами) и <span className="str">СFTC</span>(Комиссия по торговле товарными фьючерсами) - регуляторами, известными самым высоким уровнем надежности.</p>
+      </div>
       </div>
         <div>
 

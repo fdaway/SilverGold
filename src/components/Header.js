@@ -4,8 +4,8 @@ import {Link} from 'react-router-dom';
 class Header extends React.Component {
   render () {
     return (
-  <div>
-  <ul className='main-nav'>
+  <div className='main-nav'>
+  <ul>
       <li><Link to='/'>Golden Gate</Link></li>
       <li><Link to='/coins-store'>Магазин монет</Link></li>
       <li><Link to='/gold-investing'>Биржевые инвестиции</Link></li>

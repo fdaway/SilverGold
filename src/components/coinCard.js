@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactCardFlip from 'react-card-flip';
-import {Link} from 'react-router-dom';
+
 
 class CoinCard extends React.Component {
   constructor(props) {
@@ -24,7 +24,8 @@ class CoinCard extends React.Component {
   render () {
 
  const styles = {
-   textAlign: 'center'
+   textAlign: 'center',
+   margin: '0.77em'
  };
 
     return (

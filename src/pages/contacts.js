@@ -1,5 +1,7 @@
 import React from 'react';
- 
+var styles = {
+  height: '94vh'
+};
 class Contacts extends React.Component {
 
   constructor(props) {
@@ -20,7 +22,7 @@ class Contacts extends React.Component {
 
   render() {
     return (
-      <div>
+      <div style={styles}>
       <h1>Контакты</h1>
 
     <form action="/index.php" className="formCont"  >

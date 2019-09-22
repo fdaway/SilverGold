@@ -31,8 +31,7 @@ class Services extends React.Component {
       display: 'flex',
       flexWrap: 'wrap',
       justifyContent: 'center',
-      textAlign: 'center',
-      marginTop: '12px'
+      textAlign: 'center'
     }
 
     return (

@@ -71,8 +71,8 @@ class Store extends React.Component {
 
        <div className="deliveryLogos">
 
-       <div><img width="90px" src="/nova-poshta-logo.jpg" /></div>
-      <div><img width="150px" src="/ПриватБанк.png" /></div>
+       <div><img width="90px" src="/nova-poshta-logo.jpg" alt="logo Nova Poshta" /></div>
+
 
       </div>
       </div>
