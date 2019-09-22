@@ -1,5 +1,6 @@
 import React from 'react';
-import { BrowserRouter as Router, Route} from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
+
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -16,22 +17,24 @@ class App extends React.Component {
 
 render () {
   return (
-    <Router>
+
       <div className="App">
       <Header />
       <div className='container'>
+      <Switch>
       <Route exact path='/' component={Homepage} />
       <Route exact path='/coins-store' component={Store} />
       <Route exact path='/portfolio' component={Portfolio} />
       <Route exact path='/gold-investing' component={GoldInvesting} />
       <Route exact path='/gold-news-articles-interviews' component={GoldStories} />
       <Route exact path='/contacts' component={Contacts} />
+      </Switch>
       </div>
-
       <Footer />
 
+
       </div>
-    </Router>
+
   );
 }
 }
